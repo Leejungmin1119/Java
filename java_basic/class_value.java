@@ -46,10 +46,11 @@ public class class_value {
         public static void rule()
         {
             System.out.printf(grade);
-        }
+        } 
 
         public void project(String memo)
         {   // 여기서 this의 메모는 위쪽에 메모를 오른쪽에 있는 메모는 선언할때의 메모로 구분지어줌.
+            // 특히 변수를 생성할때 매개변수와 변수의 이름이 같을때 매우 유용하게 쓰인다.
             this.memo = memo; 
         } 
         
