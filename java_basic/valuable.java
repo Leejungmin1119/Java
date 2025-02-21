@@ -1,4 +1,3 @@
-package java_vasic;
 
 public class valuable {
     public static void main(String[] args) {
